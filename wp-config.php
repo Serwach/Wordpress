@@ -1,4 +1,10 @@
 <?php
+
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+// END iThemes Security - Do not modify or remove this line
+
 /**
  * The base configuration for WordPress
  *
@@ -17,7 +23,7 @@
  *
  * @package WordPress
  */
-
+define('FS_METHOD', 'direct');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress' );
